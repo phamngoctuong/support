@@ -1,5 +1,5 @@
 {
-    "name": "laraish/support",
+    "name": "wllionel/support",
     "description": "The Laraish Support Package.",
     "keywords": [
         "framework",
@@ -7,20 +7,20 @@
         "wordpress"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/laraish/support",
+    "homepage": "https://github.com/wllionel/support",
     "support": {
-        "issues": "https://github.com/laraish/support/issues",
-        "source": "https://github.com/laraish/support"
+        "issues": "https://github.com/wllionel/support/issues",
+        "source": "https://github.com/wllionel/support"
     },
     "authors": [
         {
-            "name": "yaquawa",
-            "email": "yaquawa@gmail.com"
+            "name": "Lionel Pham",
+            "email": "phamngoctuong1805@gmail.com"
         }
     ],
     "require": {
         "php": "^7.3",
-        "laraish/contracts": "^2.0"
+        "wllionel/contracts": "1.0.1"
     },
     "autoload": {
         "psr-4": {
