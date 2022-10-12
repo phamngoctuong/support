@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": "^7.3",
-        "wllionel/contracts": "1.0.3"
+        "wllionel/contracts": "^1.0"
     },
     "autoload": {
         "psr-4": {
