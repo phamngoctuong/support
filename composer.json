@@ -1,0 +1,33 @@
+{
+    "name": "laraish/support",
+    "description": "The Laraish Support Package.",
+    "keywords": [
+        "framework",
+        "laravel",
+        "wordpress"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/laraish/support",
+    "support": {
+        "issues": "https://github.com/laraish/support/issues",
+        "source": "https://github.com/laraish/support"
+    },
+    "authors": [
+        {
+            "name": "yaquawa",
+            "email": "yaquawa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "laraish/contracts": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraish\\Support\\": "./"
+        }
+    },
+    "scripts": {
+        "fix-cs": ["prettier **/*.php --write"]
+    }
+}
